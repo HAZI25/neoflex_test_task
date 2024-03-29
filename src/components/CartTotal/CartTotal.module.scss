@@ -1,0 +1,27 @@
+.root {
+	background-color: var(--content-color);
+	border-radius: var(--border-radius-m);
+	flex: 0 0 350px;
+	display: inline-block;
+	position: relative;
+
+	@media (max-width: 992px) {
+		flex-basis: 300px;
+	}
+
+	@media (max-width: 768px) {
+		flex-basis: content;
+	}
+}
+
+.total {
+	padding: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn {
+	width: 100%;
+}

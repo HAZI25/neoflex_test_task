@@ -1,0 +1,29 @@
+.category {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--silver-color);
+	margin-bottom: 20px;
+
+	@media (max-width: 576px) {
+		text-align: center;
+	}
+}
+
+.list {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(3, 1fr);
+
+	@media (max-width: 992px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: 768px) {
+		gap: 15px;
+	}
+
+	@media (max-width: 576px) {
+		grid-template-columns: repeat(1, minmax(280px, 500px));
+		justify-content: center;
+	}
+}

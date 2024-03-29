@@ -1,0 +1,39 @@
+.root {
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.action_item {
+	box-sizing: content-box;
+	padding: 10px;
+}
+
+.cart {
+	position: relative;
+}
+
+.cart_count {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+	font-size: var(--font-size-s);
+	color: white;
+	border-radius: 50%;
+	font-weight: 500;
+	background-color: var(--apricot-color);
+}

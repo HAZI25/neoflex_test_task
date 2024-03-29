@@ -1,0 +1,7 @@
+.root {
+	padding: 30px 0;
+
+	& > :not(:last-child) {
+		margin-bottom: 30px;
+	}
+}

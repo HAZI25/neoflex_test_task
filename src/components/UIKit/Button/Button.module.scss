@@ -1,0 +1,18 @@
+.root {
+	color: inherit;
+
+	&.transparent {
+		border: none;
+		background-color: transparent;
+		outline: none;
+	}
+
+	&.rounded {
+		border-radius: var(--border-radius-s);
+		padding: 22px 15px;
+		font-weight: 600;
+		color: #fff;
+		background-color: #000;
+		border: none;
+	}
+}

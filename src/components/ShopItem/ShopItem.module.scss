@@ -1,0 +1,72 @@
+.root {
+	border-radius: var(--border-radius-m);
+	padding: 20px;
+	background-color: var(--content-color);
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+
+	&:hover {
+		@media (hover: hover) {
+			.image {
+				transform: scale(1.05);
+			}
+		}
+	}
+}
+
+.name,
+.price,
+.rating,
+.btn {
+	font-weight: 600;
+}
+
+.image {
+	margin-bottom: 50px;
+	max-height: 240px;
+	object-fit: contain;
+	flex-grow: 1;
+	transition: transform 0.2s;
+}
+
+.name {
+	color: var(--charcoal-color);
+	margin-bottom: 30px;
+}
+
+.price {
+	color: var(--apricot-color);
+	white-space: nowrap;
+}
+
+.price_old {
+	color: var(--buttercream-color);
+	text-decoration: line-through;
+	text-align: center;
+	font-size: var(--font-size-extra-s);
+	white-space: nowrap;
+}
+
+.name_price,
+.rating_buy {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.name_price {
+	align-items: flex-start;
+	flex-grow: 1;
+}
+
+.rating {
+	color: var(--silver-color);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	&::before {
+		content: url('/src/assets/icons/star.svg');
+	}
+}

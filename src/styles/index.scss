@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap');
+@import 'variables/global';
+@import 'reset';
+
+.app {
+	min-height: 100vh;
+	font-family: var(--font-family-main);
+	background-color: var(--bg-color);
+	font-size: var(--font-size-m);
+	color: var(--font-color-dark);
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+.container {
+	width: 100%;
+	max-width: var(--container-width);
+	margin: 0 auto;
+}
+
+.logo {
+	font-weight: 700;
+	font-size: 25px;
+	cursor: pointer;
+	color: var(--graphite-color);
+}

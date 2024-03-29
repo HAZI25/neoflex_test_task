@@ -1,0 +1,76 @@
+[
+	{
+		"category": "Наушники",
+		"items": [
+			{
+				"id": 1,
+				"img": "src/assets/img/image1.png",
+				"name": "Apple BYZ S852I",
+				"price": 2927,
+				"oldPrice": 3527,
+				"rating": 4.7
+			},
+			{
+				"id": 2,
+				"img": "src/assets/img/image2.png",
+				"name": "Apple EarPods",
+				"price": 2327,
+				"rating": 4.5
+			},
+			{
+				"id": 3,
+				"img": "src/assets/img/image3.png",
+				"name": "Apple EarPods",
+				"price": 2327,
+				"rating": 4.5
+			},
+			{
+				"id": 4,
+				"img": "src/assets/img/image1.png",
+				"name": "Apple BYZ S852I",
+				"price": 2927,
+				"rating": 4.7
+			},
+			{
+				"id": 5,
+				"img": "src/assets/img/image2.png",
+				"name": "Apple EarPods",
+				"price": 2327,
+				"rating": 4.5
+			},
+			{
+				"id": 6,
+				"img": "src/assets/img/image3.png",
+				"name": "Apple EarPods",
+				"price": 2327,
+				"rating": 4.5
+			}
+		]
+	},
+	{
+		"category": "Беспроводные наушники",
+		"items": [
+			{
+				"id": 7,
+				"img": "src/assets/img/image4.png",
+				"name": "Apple AirPods",
+				"price": 9527,
+				"rating": 4.7
+			},
+			{
+				"id": 8,
+				"img": "src/assets/img/image5.png",
+				"name": "GERLAX GH-04",
+				"price": 6527,
+				"rating": 4.7
+			},
+			{
+				"id": 9,
+				"img": "src/assets/img/image6.png",
+				"name": "BOROFONE BO4",
+				"price": 7527,
+				"rating": 4.7
+			}
+		]
+	}
+]
